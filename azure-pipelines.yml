@@ -22,7 +22,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/build/seb'
+    SourceFolder: '$(Build.SourcesDirectory)/build/web'
     Contents: '**'
     TargetFolder: $(Build.ArtifactStagingDirectory)
 
