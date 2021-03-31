@@ -11,7 +11,7 @@ trigger:
 
 steps:
 
-- task: FlutterInstall@1
+- task: FlutterInstall@2
   inputs:
     channel: 'stable'
     version: 'latest'
